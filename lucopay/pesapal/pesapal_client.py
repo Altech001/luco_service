@@ -119,7 +119,7 @@ async def submit_order(amount: float, email: str, phone: str, first_name: str, l
     }
     
     # payment_callback_url = f"{CALLBACK_BASE_URL}/payment-callback"
-    payment_callback_url = "http://localhost:5173/topup"
+    payment_callback_url = "https://lucosms-ui.vercel.app/topup"
 
     payload = {
         "id": str(uuid.uuid4()),
