@@ -10,3 +10,4 @@ sqlalchemy
 africastalking
 psycopg2-binary
 slowapi
+

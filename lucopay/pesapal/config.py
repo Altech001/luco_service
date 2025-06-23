@@ -13,7 +13,7 @@ CONSUMER_SECRET = "nnYh5QSFZUXRsQu6PQI4llLB5iU="
 # --- Application URLs ---
 # IMPORTANT: When you run ngrok, you must update this with your public URL.
 # Example: "https://your-unique-id.ngrok-free.app"
-CALLBACK_BASE_URL = "https://2477-41-210-146-229.ngrok-free.app"
+CALLBACK_BASE_URL = "https://luco-service.onrender.com"
 
 # --- API Endpoints ---
 # These are determined by the APP_ENVIRONMENT setting.
