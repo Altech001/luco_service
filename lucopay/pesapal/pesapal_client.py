@@ -89,7 +89,8 @@ async def register_ipn_url() -> str:
         "Accept": "application/json",
         "Authorization": f"Bearer {token}"
     }
-    ipn_webhook_url = f"{CALLBACK_BASE_URL}/ipn-webhook"
+    # ipn_webhook_url = f"{CALLBACK_BASE_URL}/ipn-webhook"
+    ipn_webhook_url = f"{CALLBACK_BASE_URL}/v1/lucopay/ipn-webhook"
     payload = {"url": ipn_webhook_url, "ipn_notification_type": "POST"}
 
     async with httpx.AsyncClient() as client:

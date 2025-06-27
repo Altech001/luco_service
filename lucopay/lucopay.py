@@ -201,8 +201,6 @@ async def ipn_webhook(request: Request, db: Session = Depends(get_db)):
     payment_status = ipn_data.get("payment_status_description")
     amount_str = ipn_data.get("amount")
     
-    # NOTE: The email is often in a nested object. This key might need verification
-    # based on the actual Pesapal IPN payload.
     
     email = ipn_data.get("billing_address", {}).get("email_address")
 
