@@ -3,12 +3,15 @@
 # config.py
 
 # Set your application environment: 'sandbox' or 'live'
-APP_ENVIRONMENT = 'live'
+APP_ENVIRONMENT = 'sandbox'  # Change to 'live' for production
 
 # --- Pesapal Credentials ---
 # IMPORTANT: Please ensure these are your PRODUCTION credentials for the 'live' environment.
-CONSUMER_KEY = "BopfGlE7GfenAqGvS5SGdke4M67WLFxh"
-CONSUMER_SECRET = "nnYh5QSFZUXRsQu6PQI4llLB5iU="
+# CONSUMER_KEY = "BopfGlE7GfenAqGvS5SGdke4M67WLFxh"
+# CONSUMER_SECRET = "nnYh5QSFZUXRsQu6PQI4llLB5iU="
+
+CONSUMER_KEY ="TDpigBOOhs+zAl8cwH2Fl82jJGyD8xev"
+CONSUMER_SECRET ="1KpqkfsMaihIcOlhnBo/gBZ5smw="
 
 # --- Application URLs ---
 # IMPORTANT: When you run ngrok, you must update this with your public URL.
